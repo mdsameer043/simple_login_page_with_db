@@ -3,7 +3,7 @@ from sqlalchemy import create_engine,text
 app = Flask(__name__)
 
 
-db_connection="mysql+pymysql://14bbo2hcgkaai42wovbv:pscale_pw_XVmQyzSLTTIy2rx0tJudh5TttPkCsztpFBIROTfko8a@ap-south.connect.psdb.cloud/smd?charset=utf8mb4"
+db_connection="your db connection "
 engine= create_engine(db_connection,connect_args={
     "ssl":{
         "ssl_ca": "/etc/ssl/cert.pem"   
