@@ -78,7 +78,7 @@ def signin():
 
 @app.route("/main_page", methods=['GET','POST'])
 def main_page():
-    return render_template("main_page.html",email="mmoulana706@gmail.com",password="78627863k")
+    return render_template("main_page.html",email="your_email@gmail.com",password="78627863k")
 
 
 if __name__=="__main__":
